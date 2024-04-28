@@ -24,17 +24,22 @@ function Mobile() {
 				</Link>
 				<Separator className='mt-2 text-foreground' />
 				<div className='mt-2 flex flex-col space-y-3'>
-					{navLinks.map(nav => (
+					{navLinks.map((nav, index) => (
 						<Link
 							key={nav.route}
 							href={nav.route}
 							className={cn(
-								'hover:bg-blue-400/20 py-2 px-3 cursor-pointer rounded-md transition-colors flex items-center gap-2',
-								pathname === nav.route && 'text-bluee-400 bg-blue-400/20'
+								'hover:bg-blue-400/20 py-2 px-3 cursor-pointer rounded-md transition-colors flex items-center gap-2,',
+								pathname === nav.route && 'text-bluee-400 bg-blue-400/20',
+								index === navLinks.length - 1 &&
+									'text-white-400 border-purple-400 border-[1px]'
 							)}
 						>
 							<nav.icon />
 							{nav.name}
+							{index === navLinks.length - 1 && (
+								<span className='float-end ml-2 text-xs'>new</span>
+							)}{' '}
 						</Link>
 					))}
 				</div>

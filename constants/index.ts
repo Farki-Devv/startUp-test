@@ -2,6 +2,7 @@ import {
 	Contact2,
 	FileCode2,
 	FolderArchive,
+	FolderRoot,
 	Home,
 	ListCollapse,
 } from 'lucide-react'
@@ -12,6 +13,8 @@ export const navLinks = [
 	{ name: 'Maqolalar', route: '/blogs', icon: FileCode2 },
 	{ name: 'Arxiv', route: '/blogs/archive', icon: FolderArchive },
 	{ name: 'Kontakt', route: '/contact', icon: Contact2 },
+	{ name: 'Loyihalar', route: '/projects', icon: FolderRoot },
+
 ]
 
 export const popularCategories = [

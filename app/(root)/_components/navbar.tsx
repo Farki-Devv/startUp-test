@@ -20,16 +20,22 @@ function Navbar() {
 				</Link>
 				{/* nav links */}
 				<div className='hidden gap-2 md:flex'>
-					{navLinks.map(nav => (
+					{navLinks.map((nav, index) => (
 						<Link
 							key={nav.name}
 							href={nav.route}
 							className={cn(
-								'cursor-pointer rounded-md px-3 py-1 transition-colors hover:bg-blue-400/20',
-								pathname === nav.route && 'text-blue-400'
+								'cursor-pointer rounded-md px-3 py-1 transition-colors',
+								pathname === nav.route && 'text-blue-400',
+								index === navLinks.length - 1 &&
+									'text-white-400 border-purple-400 border-[1px]' // Eng oxirgi elementga qizil rang berish
 							)}
 						>
 							{nav.name}
+							{index === navLinks.length - 1 && (
+								<span className='float-end ml-2 text-xs'>new</span>
+							)}{' '}
+							{/* Eng oxirgi elementga "new" yozuvini qo'shish */}
 						</Link>
 					))}
 				</div>
