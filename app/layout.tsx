@@ -17,11 +17,13 @@ const workSans = Work_Sans({
 	variable: '--font-workSans',
 })
 export const metadata: Metadata = {
-	metadataBase: new URL('https://ganiboyev.com'),
+	metadataBase: new URL('https://blog-ganiboyev.vercel.app/'),
 	title: 'Frontend dasturlashga oid maqolalar',
 	description:
 		'Dasturlash haqida yangiliklar , maslahatlar, projectlar va dasturlash sohasidagi eng so`nggi xabarlar. Bizning blogda dasturlashni o`rganish va rivojlantrish uchun qo`llanma topishingiz mumkin.',
-	authors: [{ name: 'Farrux Ganiboyev', url: 'https://ganiboyev.com' }],
+	authors: [
+		{ name: 'Farrux Ganiboyev', url: 'https://blog-ganiboyev.vercel.app/' },
+	],
 	icons: { icon: '/logo.svg' },
 	keywords:
 		"Farrux Ganiboyev, dasturlash darslari ,dasturlashga oid maqolalar, reactjs, nextjs, javascript, typescript, nodejs, html, css, tailwind, bootstrap, dasturlash sohasi, dasturlash maqolalari uzbek tilida ,dasturlash darslari o'zbek tilida ",
@@ -30,9 +32,8 @@ export const metadata: Metadata = {
 		description:
 			'Dasturlash haqida yangiliklar , maslahatlar, projectlar va dasturlash sohasidagi eng so`nggi xabarlar. Bizning blogda dasturlashni o`rganish va rivojlantrish uchun qo`llanma topishingiz mumkin.',
 		type: 'website',
-		url: 'https://test-blog.sammi.ac',
+		url: 'https://blog-ganiboyev.vercel.app/',
 		locale: 'en_EN',
-		images: 'https://media.graphassets.com/kXL006lyRnW46IKTHdHs',
 		countryName: 'Uzbekistan',
 		siteName: 'blog',
 		emails: 'ganiboyevfarrux468@gmail.com',
