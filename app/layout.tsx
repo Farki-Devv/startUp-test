@@ -34,6 +34,7 @@ export const metadata: Metadata = {
 		type: 'website',
 		locale: 'en_EN',
 		countryName: 'Uzbekistan',
+		images: '/logo.svg',
 		siteName: 'blog',
 		emails: 'ganiboyevfarrux468@gmail.com',
 	},
