@@ -11,7 +11,7 @@ function ContactPage() {
 		<div className='mx-auto max-w-6xl'>
 			<div className='relative flex min-h-[40vh] flex-col items-center justify-end'>
 				<h2 className='section-title mt-2 text-center font-createRound text-4xl'>
-					<span>Kotakt</span>
+					<span>Kontakt</span>
 				</h2>
 
 				<div className='mt-4 flex items-center gap-1'>
