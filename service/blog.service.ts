@@ -14,6 +14,7 @@ export const getBlogs = async () => {
 						url
 					}
 				}
+				youtubeurl
 				category {
 					name
 					slug
@@ -102,6 +103,7 @@ export const getArchiveBlogs = async () => {
 	const query = gql`
 		query MyQuery {
 			blogs(where: { archive: true }) {
+				youtubeurl
 				title
 				createdAt
 				slug
