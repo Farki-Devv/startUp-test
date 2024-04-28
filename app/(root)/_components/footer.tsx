@@ -23,7 +23,7 @@ function Footer() {
 					variant={active ? 'default' : 'outline'}
 					className='max-md:mt-2'
 				>
-					<User2 className=' size-80' />
+					<User2 className='size-4' />
 					<span>bugun qo`shiling</span>
 				</Button>
 			</div>
