@@ -16,7 +16,7 @@ function Navbar() {
 			<div className='container mx-auto flex h-[10vh] w-full max-w-6xl items-center justify-between'>
 				{/* logo */}
 				<Link href={'/'}>
-					<span className='font-createRound text-4xl'>Sammi</span>
+					<span className='font-createRound text-4xl'>Ganiboyev</span>
 				</Link>
 				{/* nav links */}
 				<div className='hidden gap-2 md:flex'>

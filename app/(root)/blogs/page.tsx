@@ -15,7 +15,7 @@ async function Page() {
 		<div className='mx-auto max-w-6xl'>
 			<div className='relative flex min-h-[40vh] flex-col items-center justify-end'>
 				<h2 className='section-title text-center font-createRound text-4xl'>
-					<span>Blogs</span>
+					<span>Maqolalar</span>
 				</h2>
 				<div className='mt-4 flex items-center gap-1'>
 					<Home />
@@ -23,10 +23,10 @@ async function Page() {
 						href={'/'}
 						className='opacity-90 hover:underline hover:opacity-100'
 					>
-						Home
+						Bosh sahifa
 					</Link>
 					<Dot />
-					<p className='text-muted-foreground'>Blogs</p>
+					<p className='text-muted-foreground'>maqolalar</p>
 				</div>
 			</div>
 			<div className='mt-24 grid grid-cols-2 gap-x-4 gap-y-24 max-md:grid-cols-1'>

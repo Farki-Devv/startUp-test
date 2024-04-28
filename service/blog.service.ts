@@ -51,6 +51,7 @@ export const getDetailedBlog = async (slug: string) => {
 						url
 					}
 				}
+				youtubeurl
 				contenent {
 					html
 				}

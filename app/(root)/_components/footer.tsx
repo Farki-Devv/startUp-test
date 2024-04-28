@@ -9,7 +9,7 @@ function Footer() {
 	return (
 		<footer className=' container max-w-2xl flex-col space-y-12 py-24 '>
 			<h1 className='text-center font-createRound text-5xl'>
-				Get latest posts delivered right to your inbox
+				Shaxsiy email manzilingizni qoldiring ..
 			</h1>
 			<div className='grid w-full grid-cols-3 max-md:grid-cols-1 md:gap-4'>
 				<Input
@@ -23,8 +23,8 @@ function Footer() {
 					variant={active ? 'default' : 'outline'}
 					className='max-md:mt-2'
 				>
-					<User2 className='mr-2 size-4' />
-					<span>Join today</span>
+					<User2 className=' size-80' />
+					<span>bugun qo`shiling</span>
 				</Button>
 			</div>
 		</footer>

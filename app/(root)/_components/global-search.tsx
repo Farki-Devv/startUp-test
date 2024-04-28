@@ -41,7 +41,7 @@ function GlobalSearch() {
 		<Drawer>
 			<DrawerTrigger>
 				<div className='flex cursor-pointer items-center gap-1 rounded-sm px-3 py-2 transition-colors hover:bg-blue-400/20'>
-					<span className='hidden md:flex'>Search</span>
+					<span className='hidden md:flex'>qidiruv</span>
 					<Search className='size-4' />
 				</div>
 			</DrawerTrigger>

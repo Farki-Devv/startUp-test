@@ -8,12 +8,12 @@ async function Page() {
 		<div className='mx-auto max-w-6xl'>
 			<div className='relative flex min-h-[60vh] items-center justify-center'>
 				<h1 className='max-w-2xl text-center font-createRound text-3xl md:text-4xl lg:text-5xl'>
-					Taking control of your daily life is easy when you know how!
+					Frontend - Dasturlashga oid maqolalar va darsliklar to`plami
 				</h1>
 				<BgArrow />
 			</div>
 			<h2 className='section-title text-center font-createRound text-4xl'>
-				<span>Recent posts</span>
+				<span>Mashhur bloglar</span>
 			</h2>
 			<div className='mt-24 flex flex-col space-y-24'>
 				{blogs.map(blog => (

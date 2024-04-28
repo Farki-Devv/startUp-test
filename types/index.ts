@@ -16,6 +16,7 @@ export interface IBlog {
 	image: {
 		url: string
 	}
+	youtubeurl: string
 	createdAt: string
 	contenent: { html: string }
 	slug: string

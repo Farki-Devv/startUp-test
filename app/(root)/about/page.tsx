@@ -15,7 +15,7 @@ async function Page() {
 		<div className='mx-auto max-w-6xl'>
 			<div className='relative flex min-h-[40vh] flex-col items-center justify-center'>
 				<h2 className='section-title text-center font-createRound text-4xl'>
-					<span>About</span>
+					<span>Biz haqimizda</span>
 				</h2>
 				<div className='mt-4 flex items-center gap-1'>
 					<Home className='size-4' />
@@ -23,14 +23,14 @@ async function Page() {
 						href={'/'}
 						className='opacity-90 hover:underline hover:opacity-100'
 					>
-						Home
+						Bosh sahifa
 					</Link>
 					<Dot />
-					<p className=' text-muted-foreground'>About</p>
+					<p className=' text-muted-foreground'>Biz haqimizda</p>
 				</div>
 			</div>
 			<h1 className='text-center font-createRound text-4xl'>
-				We are the sammi, <br /> Team of content writers and designers.
+				Bizning dizaynerlarizmiz <br /> va bizning jamoamiz.
 			</h1>
 
 			<div className='mt-6 grid min-h-96 grid-cols-4 gap-4'>
@@ -62,21 +62,13 @@ async function Page() {
 
 			<div className='mx-auto mt-12 flex max-w-6xl flex-col space-y-4 text-center text-muted-foreground'>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-					minima in delectus perspiciatis, sit ex nulla recusandae ab aliquam,
-					voluptas labore? Necessitatibus nulla assumenda dolore porro amet
-					consequuntur accusantium laboriosam.
-				</p>
-				<p>
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde atque
-					vitae mollitia nobis laudantium nihil necessitatibus at! Vero odio
-					iusto, autem mollitia, eos ad, ipsam architecto inventore optio magnam
-					ea.
+					Biz ning har bir maqolamizda sizga foydali malumotlar bor har birini
+					sinchkovlik ilan kuzating va video darslikni koring
 				</p>
 			</div>
 
 			<h2 className='section-title my-12 text-center font-createRound text-4xl'>
-				<span>Our writers</span>
+				<span>Bizning o`qituvchilar</span>
 			</h2>
 
 			<div className='flex justify-around max-md:flex-col max-md:items-center max-md:space-y-4'>

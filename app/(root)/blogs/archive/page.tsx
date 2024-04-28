@@ -8,14 +8,15 @@ export const metadata: Metadata = {
 	title: 'Arxivdagi maqolalar',
 }
 
-
 async function ArchivePage() {
 	const blogs = await getArchiveBlogs()
 
 	return (
 		<div className='mx-auto max-w-6xl'>
 			<div className='relative flex min-h-[40vh] flex-col items-center justify-end'>
-				<p className='text-lg text-muted-foreground'>Showing posts from</p>
+				<p className='text-lg text-muted-foreground'>
+					Arxiv qilingan va eskirgan maqolalar shu yerda turadi
+				</p>
 				<h2 className='section-title mt-2 text-center font-createRound text-4xl'>
 					<span>Archive</span>
 				</h2>
@@ -26,17 +27,17 @@ async function ArchivePage() {
 						href={'/'}
 						className='opacity-90 hover:underline hover:opacity-100'
 					>
-						Home
+						Bosh sahifa
 					</Link>
 					<Dot />
 					<Link
 						href={'/blogs'}
 						className='opacity-90 hover:underline hover:opacity-100'
 					>
-						Blogs
+						Maqolalar
 					</Link>
 					<Dot />
-					<p className='text-muted-foreground'>Archive</p>
+					<p className='text-muted-foreground'>Arxiv</p>
 				</div>
 			</div>
 			{blogs.map(blog => (

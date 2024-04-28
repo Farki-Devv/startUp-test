@@ -98,6 +98,13 @@ async function SlugPage({ params }: { params: { slug: string } }) {
 					{parse(blog.contenent.html)}
 				</div>
 			</div>
+			<iframe
+				className='h-[48vh] w-full'
+				src={blog.youtubeurl}
+				title='YouTube video player'
+				allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+				allowFullScreen
+			></iframe>
 
 			<div className='mt-6 flex items-center gap-6 max-md:flex-col'>
 				<Image

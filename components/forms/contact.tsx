@@ -51,9 +51,9 @@ StartUp: blogs-uz
 			.finally(() => setIsLoading(false))
 
 		toast.promise(promise, {
-			loading: 'Loading...',
-			success: 'Successfully sent!',
-			error: 'Something went wrong!',
+			loading: 'yuborilmoqda...',
+			success: 'Habaringiz yuborildi!',
+			error: 'Nimadur hato ketdi!',
 		})
 	}
 
@@ -69,7 +69,7 @@ StartUp: blogs-uz
 								<Textarea
 									disabled={isLoading}
 									className='h-32 resize-none'
-									placeholder='Ask question or just say Hi'
+									placeholder='Habaringizni yozing'
 									{...field}
 								/>
 							</FormControl>
@@ -84,7 +84,7 @@ StartUp: blogs-uz
 						<FormItem>
 							<FormControl>
 								<Input
-									placeholder='Email address'
+									placeholder='Email manzilingizni kiriting ..'
 									disabled={isLoading}
 									{...field}
 								/>
@@ -100,7 +100,7 @@ StartUp: blogs-uz
 						<FormItem>
 							<FormControl>
 								<Input
-									placeholder='Your name here'
+									placeholder='Ismingizni kiriting ..'
 									disabled={isLoading}
 									{...field}
 								/>
@@ -115,7 +115,7 @@ StartUp: blogs-uz
 					type='submit'
 					disabled={isLoading}
 				>
-					<span>Send</span>
+					<span>Yuborish</span>
 					<Send className='ml-2 size-4' />
 				</Button>
 			</form>
