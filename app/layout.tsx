@@ -32,7 +32,6 @@ export const metadata: Metadata = {
 		description:
 			'Dasturlash haqida yangiliklar , maslahatlar, projectlar va dasturlash sohasidagi eng so`nggi xabarlar. Bizning blogda dasturlashni o`rganish va rivojlantrish uchun qo`llanma topishingiz mumkin.',
 		type: 'website',
-		url: 'https://blog-ganiboyev.vercel.app/',
 		locale: 'en_EN',
 		countryName: 'Uzbekistan',
 		siteName: 'blog',
